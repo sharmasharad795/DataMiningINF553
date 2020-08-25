@@ -22,3 +22,15 @@ HW2 -
 We implement the SON algorithm using the Apache Spark Framework.
 We also develop a program to find frequent itemsets in two datasets, one simulated dataset
 and one real-world dataset generated from Yelp dataset.
+
+
+HW3 - 
+
+We leverage principles of Min-Hash, Locality
+Sensitive Hashing (LSH), to develop recommendation system - CONTENT BASED and COLLABORATIVE FILTERING ( Item based and User based CF )
+
+
+HW4 - 
+
+We explore the spark GraphFrames library as well as implement our
+own Girvan-Newman algorithm using the Spark Framework to detect communities in graphs,ie, users who have a similar business taste.

@@ -27,10 +27,25 @@ and one real-world dataset generated from Yelp dataset.
 HW3 - 
 
 We leverage principles of Min-Hash, Locality
-Sensitive Hashing (LSH), to develop recommendation system - CONTENT BASED and COLLABORATIVE FILTERING ( Item based and User based CF )
+Sensitive Hashing (LSH), to develop recommendation system - CONTENT BASED and COLLABORATIVE FILTERING (Item based and User based CF)
 
 
 HW4 - 
 
 We explore the spark GraphFrames library as well as implement our
 own Girvan-Newman algorithm using the Spark Framework to detect communities in graphs,ie, users who have a similar business taste.
+
+
+HW5 - 
+
+We implement clustering algorithms such as K-Means and Bradley-Fayyad-Reina (BFR) algorithm. 
+
+
+HW6 -
+
+We implement three algorithms: the Bloom filtering, Flajolet- Martin algorithm, and reservoir sampling. For the first task,we implement Bloom
+Filtering for off-line Yelp business dataset. The “off-line” here means tbat we do not need to take
+the input as streaming data. For the second and the third task, we deal with on-line
+streaming data directly. In the second task,we generate a simulated data stream
+with the Yelp dataset and implement Flajolet-Martin algorithm with Spark Streaming library.
+In the third task, we do some analysis on Twitter stream using fixed size sampling (Reservoir Sampling).
